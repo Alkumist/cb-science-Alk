@@ -1,12 +1,13 @@
 {
     "name": "cb-science-Alk",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "title": "Colour Blind Friendly Science Packs",
     "author": "Hornwitser, Alkumist",
     "contact": "",
     "description": "Alternative icons for science packs, Graphics from quality glassware by Hornwitser",
     "factorio_version": "2.1",
 	"dependencies": [
-		"base"
+		"base",
+		"? space-age"
 	]
 }
