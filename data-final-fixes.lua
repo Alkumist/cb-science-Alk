@@ -18,16 +18,21 @@ data.raw.technology["utility-science-pack"].icon = "__cb-science-Alk__/graphics/
 
 data.raw.item["space-science-pack"].icon = "__cb-science-Alk__/graphics/icons/space.png"
 data.raw.technology["space-science-pack"].icon = "__cb-science-Alk__/graphics/technology/space.png"
-data.raw.recipe["space-science-pack"].icon = "__cb-science-Alk__/graphics/icons/space.png"
 
-data.raw.item["metallurgic-science-pack"].icon = "__cb-science-Alk__/graphics/icons/metallurgic.png"
-data.raw.technology["metallurgic-science-pack"].icon = "__cb-science-Alk__/graphics/technology/metallurgic.png"
+if mods["space-age"] then
 
-data.raw.item["electromagnetic-science-pack"].icon = "__cb-science-Alk__/graphics/icons/electromagnetic.png"
-data.raw.technology["electromagnetic-science-pack"].icon = "__cb-science-Alk__/graphics/technology/electromagnetic.png"
+  data.raw.recipe["space-science-pack"].icon = "__cb-science-Alk__/graphics/icons/space.png"
 
-data.raw.item["agricultural-science-pack"].icon = "__cb-science-Alk__/graphics/icons/agricultural.png"
-data.raw.technology["agricultural-science-pack"].icon = "__cb-science-Alk__/graphics/technology/agricultural.png"
+  data.raw.item["metallurgic-science-pack"].icon = "__cb-science-Alk__/graphics/icons/metallurgic.png"
+  data.raw.technology["metallurgic-science-pack"].icon = "__cb-science-Alk__/graphics/technology/metallurgic.png"
 
-data.raw.item["cryogenic-science-pack"].icon = "__cb-science-Alk__/graphics/icons/cryogenic.png"
-data.raw.technology["cryogenic-science-pack"].icon = "__cb-science-Alk__/graphics/technology/cryogenic.png"
+  data.raw.item["electromagnetic-science-pack"].icon = "__cb-science-Alk__/graphics/icons/electromagnetic.png"
+  data.raw.technology["electromagnetic-science-pack"].icon = "__cb-science-Alk__/graphics/technology/electromagnetic.png"
+
+  data.raw.item["agricultural-science-pack"].icon = "__cb-science-Alk__/graphics/icons/agricultural.png"
+  data.raw.technology["agricultural-science-pack"].icon = "__cb-science-Alk__/graphics/technology/agricultural.png"
+
+  data.raw.item["cryogenic-science-pack"].icon = "__cb-science-Alk__/graphics/icons/cryogenic.png"
+  data.raw.technology["cryogenic-science-pack"].icon = "__cb-science-Alk__/graphics/technology/cryogenic.png"
+
+end
